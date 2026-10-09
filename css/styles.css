@@ -72,7 +72,10 @@ height: 375px;
 
 /* Profile
 ------------------------------------*/
-
+.project-item img {
+    width: 300px;
+    float: left;
+}
 /* Projects
 ------------------------------------*/
 
