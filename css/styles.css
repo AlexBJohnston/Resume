@@ -114,6 +114,8 @@ footer {
     background: #222;
     color:#d3d4d6;
     display: flex; 
+    justify-content: space-between;
+    padding: 0 20px;
 }
 .socials {
     list-style-type: none;
