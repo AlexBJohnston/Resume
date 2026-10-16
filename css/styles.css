@@ -167,6 +167,13 @@ margin: 0;
 .work-summary p:first-child {
     margin-top: 0;
 }
+@media screen and (min-width:860px) {
+    .work-item {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        column-gap: 20px;
+    }
+}
 /* Education
 ------------------------------------*/
 .education-item {
