@@ -91,6 +91,14 @@ footer a:hover {
     background: rgb(255 255 255 / 0.9);
     padding: 30px;
 }
+@media screen and (max-width: 650px) {
+    .home .content-wrapper {
+        padding: 10px;
+    }
+    .content-bg {
+        padding: 20px;
+    }
+}
 
 /* RESUME
 ------------------------------------*/
@@ -157,7 +165,7 @@ height: 375px;
     width: 100%;
 }
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
     .project-item img {
         width: 100%;
         margin-bottom: 10px;
@@ -178,7 +186,7 @@ margin: 0;
 .work-summary p:first-child {
     margin-top: 0;
 }
-@media screen and (min-width:860px) {
+@media screen and (min-width: 860px) {
     .work-item {
         display: grid;
         grid-template-columns: 300px 1fr;
@@ -200,9 +208,6 @@ margin: 0;
 footer {
     background: #222;
     color:#d3d4d6;
-    display: flex; 
-    justify-content: space-between;
-    padding: 0 20px;
 }
 .socials {
     list-style-type: none;
@@ -217,4 +222,17 @@ footer {
 }
 .socials img:hover {
     opacity: 0.5;
+}
+@media screen and (min-width: 860px) {
+    footer {
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 20px;
+    }
+}
+@media screen and (max-width: 859px) {
+    footer {
+        text-align: center;
+        padding: 10px;
+    }
 }
