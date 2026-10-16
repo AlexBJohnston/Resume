@@ -112,7 +112,7 @@ height: 375px;
     top: 5px;
     left: 5px;
     font-size: 1.5rem;
-    
+
 }
 
 /* Profile
@@ -136,7 +136,12 @@ height: 375px;
     grid-template-columns: 300px 1fr;
     column-gap: 20px;
 }
-
+.work-details {
+margin: 0;
+}
+.work-summary p:first-child {
+    margin-top: 0;
+}
 /* Education
 ------------------------------------*/
 
