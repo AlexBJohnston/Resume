@@ -12,11 +12,12 @@ Off-white     #f6f6f6
 ------------------------------------*/
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 *, *:before, *:after{
     box-sizing: inherit;
-    font-size: 62.5%;
-}
+    }
+    
 html, body {
     height: 100%;
 }
